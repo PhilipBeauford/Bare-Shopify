@@ -4,6 +4,14 @@
     "header_logo": "shopify:\/\/shop_images\/logo.png",
     "customer_layout": "theme",
     "example_option": "option",
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "slide_image": "shopify:\/\/shop_images\/hero-bg.jpg"
+        }
+      }
+    },
     "content_for_index": [
 
     ]
