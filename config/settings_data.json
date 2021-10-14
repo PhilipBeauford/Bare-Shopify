@@ -13,10 +13,24 @@
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/hero-bg.jpg"
             }
+          },
+          "971f2446-6e33-4ada-a542-73ef8891e6f3": {
+            "type": "text",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/hero-bg-2.jpg"
+            }
+          },
+          "2f4b3d78-085f-401b-bc6b-96c536981b6b": {
+            "type": "text",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/hero-bg-3.jpg"
+            }
           }
         },
         "block_order": [
-          "d879bef6-75a7-4a91-a668-1cc87e8f5642"
+          "d879bef6-75a7-4a91-a668-1cc87e8f5642",
+          "971f2446-6e33-4ada-a542-73ef8891e6f3",
+          "2f4b3d78-085f-401b-bc6b-96c536981b6b"
         ],
         "settings": {
         }
