@@ -16,7 +16,7 @@
           </div>
         </div>
       </div>
-      <div style="background: url(img/hero-bg-2.jpg);" class="item d-flex align-items-center">
+      <div style="background: url({{section.settings.slide_image2 | img_url: '2048x' }});" class="item d-flex align-items-center">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 text-white">
@@ -26,7 +26,7 @@
           </div>
         </div>
       </div>
-      <div style="background: url(img/hero-bg-3.jpg);" class="item d-flex align-items-center">
+      <div style="background: url({{section.settings.slide_image3 | img_url: '2048x' }});" class="item d-flex align-items-center">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 text-white">
@@ -47,6 +47,16 @@
             "id": "slide_image",
             "type": "image_picker",
             "label": "Slide Image"
+        },
+        {
+          "id": "slide_image2",
+          "type": "image_picker",
+          "label": "Slide Image 2"
+        },
+        {
+          "id": "slide_image3",
+          "type": "image_picker",
+          "label": "Slide Image 3"
         }
       ]
     }
