@@ -16,6 +16,12 @@
         "type": "text",
         "label": "Topbar Phone Number",
         "default": "661-900-9575"
+      },
+      {
+        "id": "topbar_text",
+        "type": "text",
+        "label": "Topbar Text",
+        "default": "Free shipping on Orders over $300"
       }
     ]
   }
