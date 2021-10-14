@@ -61,10 +61,6 @@
     {{ content_for_layout }}
   </main>
 
-  <footer>
-    Copyright &copy; {{ "now" | date: "%Y" }} {{ shop.name }}. {{ powered_by_link }}.
-  </footer>
-
 </body>
 </html>
 
@@ -142,4 +138,11 @@
     <input name="q" type="search" id="search-field" placeholder="Search store..." value="{{ search.terms | escape }}" />
     <input type="submit" id="search-submit" value="Search" />
   </form>
+  {% endcomment %}
+  
+  
+  {% comment %}
+  <footer>
+    Copyright &copy; {{ "now" | date: "%Y" }} {{ shop.name }}. {{ powered_by_link }}.
+  </footer>
   {% endcomment %}
