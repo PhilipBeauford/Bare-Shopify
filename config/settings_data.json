@@ -1,7 +1,11 @@
 {
   "current": {
+    "topbar": "661-900-9575",
     "customer_layout": "theme",
-    "example_option": "option"
+    "example_option": "option",
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Naked": {
