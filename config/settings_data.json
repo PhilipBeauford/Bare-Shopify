@@ -8,7 +8,9 @@
       "hero": {
         "type": "hero",
         "settings": {
-          "slide_image": "shopify:\/\/shop_images\/hero-bg.jpg"
+          "slide_image": "shopify:\/\/shop_images\/hero-bg.jpg",
+          "slide_image2": "shopify:\/\/shop_images\/hero-bg-2.jpg",
+          "slide_image3": "shopify:\/\/shop_images\/hero-bg-3.jpg"
         }
       }
     },
