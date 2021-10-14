@@ -7,10 +7,18 @@
     "sections": {
       "hero": {
         "type": "hero",
+        "blocks": {
+          "d879bef6-75a7-4a91-a668-1cc87e8f5642": {
+            "type": "text",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/hero-bg.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "d879bef6-75a7-4a91-a668-1cc87e8f5642"
+        ],
         "settings": {
-          "slide_image": "shopify:\/\/shop_images\/hero-bg.jpg",
-          "slide_image2": "shopify:\/\/shop_images\/hero-bg-2.jpg",
-          "slide_image3": "shopify:\/\/shop_images\/hero-bg-3.jpg"
         }
       }
     },
