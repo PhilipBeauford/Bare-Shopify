@@ -9,11 +9,13 @@
     ]
   },
   {
-    "name": "Example setting",
+    "name": "Header",
     "settings": [
       {
-        "type": "header",
-        "content": "Example option"
+        "id": "topbar",
+        "type": "text",
+        "label": "Topbar Phone Number",
+        "default": "661-900-9575"
       }
     ]
   }
