@@ -22,6 +22,11 @@
         "type": "text",
         "label": "Topbar Text",
         "default": "Free shipping on Orders over $300"
+      },
+      {
+        "id": "header_logo",
+        "type": "image_picker",
+        "label": "Main Logo"
       }
     ]
   }
