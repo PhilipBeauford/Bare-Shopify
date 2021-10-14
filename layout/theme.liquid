@@ -71,9 +71,9 @@
 
 
 
-{% comment %} I add this one, this all goes in the body
+
+  {% comment %} I add this one, this all goes in the body
 <header>
-  {% comment %}
     Note on checkout link: it is a good idea to avoid linking to /checkout directly because shops that use 
     Paypal Express Checkout and/or Google Checkout have special checkout buttons on the /cart page. Also,
     special instructions for the seller are entered on the /cart page. Finally, the universal tracking code 
@@ -114,6 +114,7 @@
       {{ shop.name }}
     </a>
   {% endif %}
+  {% endcomment %}
 
   {% comment %}
     Main Navigation 
@@ -147,3 +148,4 @@
     Copyright &copy; {{ "now" | date: "%Y" }} {{ shop.name }}. {{ powered_by_link }}.
   </footer>
   {% endcomment %}
+  
