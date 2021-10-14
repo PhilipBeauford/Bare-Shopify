@@ -26,7 +26,7 @@
             "type": "text",
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/hero-bg-3.jpg",
-              "slide_text": "<div class=\"col-lg-6\">\n                <h1>Hub<\/h1>\n                <ul class=\"lead\"> \n                  <li>\n<strong>Bootstrap 4 E-commerce<\/strong> template<\/li>\n                  <li>\n<strong>24<\/strong> pages, <strong>6<\/strong> colour variants<\/li>\n                  <li>\n<strong>SCSS<\/strong> sources <\/li>\n                  <li>frequent & <strong>free updates<\/strong>\n<\/li>\n                <\/ul>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\"> <\/i><\/a>\n<\/div>"
+              "slide_text": "<div class=\"col-lg-6 text-white\">\n                <h1>Sed do eiusmod tempor<\/h1>\n                <p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\">           <\/i><\/a>\n              <\/div>"
             }
           }
         },
