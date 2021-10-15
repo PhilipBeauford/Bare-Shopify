@@ -12,7 +12,7 @@
             "type": "text",
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/hero-bg.jpg",
-              "slide_text": "<div class=\"col-lg-6\">\n                <h1>Hub<\/h1>\n                <ul class=\"lead\"> \n                  <li>\n<strong>Bootstrap 4 E-commerce<\/strong> template<\/li>\n                  <li>\n<strong>24<\/strong> pages, <strong>6<\/strong> colour variants<\/li>\n                  <li>\n<strong>SCSS<\/strong> sources <\/li>\n                  <li>frequent & <strong>free updates<\/strong>\n<\/li>\n                <\/ul>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\"> <\/i><\/a>\n<\/div>"
+              "slide_text": "<div class=\"col-lg-6\">\n                <h1>Fashion Hub<\/h1>\n                <div class=\"lead\"> \n                  <p>\n<strong>Shopify E-commerce<\/strong> template<br>\n<strong>24<\/strong> pages, <strong>6<\/strong> colour variants<br>\n<strong>SCSS<\/strong> sources <br>\nfrequent & <strong>free updates<\/strong>\n<\/p>\n                <\/div>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\"> <\/i><\/a>\n<\/div>"
             }
           },
           "971f2446-6e33-4ada-a542-73ef8891e6f3": {
