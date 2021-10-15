@@ -26,6 +26,9 @@
     "footer_newsletter_header": "Daily offers & discounts",
     "footer_newsletter_text": "Lorem ipsum delor blah ipsum lorem blah delor ipsum lorem ipsama",
     "footer_visa_icon": "shopify:\/\/shop_images\/visa-color.png",
+    "footer_mastercard_icon": "shopify:\/\/shop_images\/mastercard-color.png",
+    "footer_paypal_icon": "shopify:\/\/shop_images\/paypal-color.png",
+    "footer_westernunion_icon": "shopify:\/\/shop_images\/cash-dollar-color.png",
     "customer_layout": "theme",
     "example_option": "option",
     "sections": {
