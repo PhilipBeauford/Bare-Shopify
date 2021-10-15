@@ -90,7 +90,8 @@
       "divider": {
         "type": "divider",
         "settings": {
-          "background_image": "shopify:\/\/shop_images\/divider-bg.jpg"
+          "background_image": "shopify:\/\/shop_images\/divider-bg.jpg",
+          "divider_textarea": "<div class=\"col-lg-6\">\n          <p>Old Collection<\/p>\n          <h2 class=\"h1 text-uppercase no-margin\">Huge Sales<\/h2>\n          <p>At our outlet stores<\/p>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\"><\/i><\/a>\n        <\/div>"
         }
       }
     },
