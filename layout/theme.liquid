@@ -60,6 +60,16 @@
       {{ content_for_layout }}
     </main>
 
+
+    <div id="scrollTop"><i class="fa fa-long-arrow-up"></i></div>
+
+
+    <footer class="main-footer">
+      {% render 'footer-services' %}
+    </footer>
+
+
+
     {{ 'jquery.min.js' | asset_url | script_tag }}
     {{ 'bootstrap.bundle.min.js' | asset_url | script_tag }}
     {{ 'jquery.cookie.js' | asset_url | script_tag }}

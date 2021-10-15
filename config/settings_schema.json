@@ -29,5 +29,19 @@
         "label": "Main Logo"
       }
     ]
+  },
+  {
+    "name": "Footer Services",
+    "settings": [
+      {
+        "type": "header",
+        "content": "First-Column"
+      },
+      {
+        "id": "first_footer_icon",
+        "type": "text",
+        "label": "First Footer Icon"
+      }
+    ]
   }
 ]
