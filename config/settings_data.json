@@ -5,6 +5,12 @@
     "first_footer_icon": "icon-truck",
     "first_footer_toptext": "free shipping & return",
     "first_footer_bottomtext": "Free Shipping over $300",
+    "second_footer_icon": "icon-coin",
+    "second_footer_toptext": "money back guarantee",
+    "second_footer_bottomtext": "30 Days Money Back Guarantee",
+    "third_footer_icon": "icon-headphones",
+    "third_footer_toptext": "1-800-456-7475",
+    "third_footer_bottomtext": "24\/7 Available Support",
     "customer_layout": "theme",
     "example_option": "option",
     "sections": {
