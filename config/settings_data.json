@@ -86,6 +86,12 @@
           "bottom_text": "mens collection",
           "collection": "mens"
         }
+      },
+      "divider": {
+        "type": "divider",
+        "settings": {
+          "background_image": "shopify:\/\/shop_images\/divider-bg.jpg"
+        }
       }
     },
     "content_for_index": [
