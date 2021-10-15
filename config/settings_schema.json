@@ -176,6 +176,30 @@
         "id": "footer_newsletter_text",
         "type": "text",
         "label": "Newsletter Text"
+      },
+      {
+        "type": "header",
+        "content": "Footer Pay Icons"
+      },
+      {
+        "id": "footer_visa_icon",
+        "type": "image_picker",
+        "label": "Footer Visa Icon"
+      },
+      {
+        "id": "footer_mastercard_icon",
+        "type": "image_picker",
+        "label": "Footer Mastercard Icon"
+      },
+      {
+        "id": "footer_paypal_icon",
+        "type": "image_picker",
+        "label": "Footer Paypal Icon"
+      },
+      {
+        "id": "footer_westernunion_icon",
+        "type": "image_picker",
+        "label": "Footer Western Union Icon"
       }
     ]
   }
