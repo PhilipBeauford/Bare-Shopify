@@ -78,6 +78,13 @@
           "category_header": "Top For This Month",
           "category_text": "Our Featured Picks"
         }
+      },
+      "first-collection": {
+        "type": "first-collection",
+        "settings": {
+          "top_text": "autumn choice",
+          "bottom_text": "mens collection"
+        }
       }
     },
     "content_for_index": [
