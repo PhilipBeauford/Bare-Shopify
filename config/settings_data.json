@@ -37,6 +37,27 @@
         ],
         "settings": {
         }
+      },
+      "categories": {
+        "type": "categories",
+        "blocks": {
+          "7158e052-3ce5-4738-9824-95fc1f403a90": {
+            "type": "text",
+            "settings": {
+              "banner_image": "shopify:\/\/shop_images\/banner-1.jpg",
+              "banner_header_text": "Men's",
+              "banner_text": "New Collectiones",
+              "banner_link": "shopify:\/\/collections\/mens"
+            }
+          }
+        },
+        "block_order": [
+          "7158e052-3ce5-4738-9824-95fc1f403a90"
+        ],
+        "settings": {
+          "category_header": "Top For This Month",
+          "category_text": "Our Featured Picks"
+        }
       }
     },
     "content_for_index": [
