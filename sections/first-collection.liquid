@@ -10,7 +10,7 @@
 
         {% assign collection = collections[section.settings.collection] %}
 
-        {% for product in collection.products %}
+        {% for product in collection.products limit: section.settings.product_limit %}
         <!-- item-->
             <div class="item">
                 <div class="product is-gray">
@@ -57,6 +57,14 @@
         "id": "collection",
         "type": "collection",
         "label": "Collection"
+       },
+       {
+           "id": "product_limit",
+           "type": "range",
+           "label": "Product Limit",
+           "min": 3,
+           "max": 9,
+           "default": 6
        }
     ]
   }
