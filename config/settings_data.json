@@ -83,7 +83,8 @@
         "type": "first-collection",
         "settings": {
           "top_text": "autumn choice",
-          "bottom_text": "mens collection"
+          "bottom_text": "mens collection",
+          "collection": "mens"
         }
       }
     },
