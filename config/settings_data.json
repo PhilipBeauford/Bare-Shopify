@@ -103,6 +103,14 @@
           "collection": "womens",
           "product_limit": 9
         }
+      },
+      "blog": {
+        "type": "blog",
+        "settings": {
+          "top_text": "made it hard way",
+          "bottom_text": "latest from the blog",
+          "blog": "news"
+        }
       }
     },
     "content_for_index": [
