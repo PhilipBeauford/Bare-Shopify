@@ -108,6 +108,46 @@
         "id": "footer_facebook_icon_link",
         "type": "text",
         "label": "Footer Facebook Icon Link"
+      },
+      {
+        "id": "footer_twitter_icon",
+        "type": "text",
+        "label": "Footer Twitter Icon"
+      },
+      {
+        "id": "footer_twitter_icon_link",
+        "type": "text",
+        "label": "Footer Twitter Icon Link"
+      },
+      {
+        "id": "footer_instagram_icon",
+        "type": "text",
+        "label": "Footer Instagram Icon"
+      },
+      {
+        "id": "footer_instagram_icon_link",
+        "type": "text",
+        "label": "Footer Instagram Icon Link"
+      },
+      {
+        "id": "footer_pinterest_icon",
+        "type": "text",
+        "label": "Footer Pinterest Icon"
+      },
+      {
+        "id": "footer_pinterest_icon_link",
+        "type": "text",
+        "label": "Footer Pinterest Icon Link"
+      },
+      {
+        "id": "footer_vimeo_icon",
+        "type": "text",
+        "label": "Footer Vimeo Icon"
+      },
+      {
+        "id": "footer_vimeo_icon_link",
+        "type": "text",
+        "label": "Footer Vimeo Icon Link"
       }
     ]
   }
