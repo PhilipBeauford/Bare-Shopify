@@ -20,7 +20,7 @@
                 {% if article.excerpt.size > 0 %}
                 <p>{{ article.excerpt }} </p>
                 {% else %}
-                <p>{{ article.content | strip_html | | truncatewords: 30 }} </p>
+                <p>{{ article.content | strip_html | truncatewords: 30 }} </p>
                 {% endif %}
 
                 <a href="{{ article.url }}" class="read-more">Read More<i class="fa fa-long-arrow-right"></i></a>
