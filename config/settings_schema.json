@@ -41,6 +41,16 @@
         "id": "first_footer_icon",
         "type": "text",
         "label": "First Footer Icon"
+      },
+      {
+        "id": "first_footer_toptext",
+        "type": "text",
+        "label": "First Footer Top Text"
+      },
+      {
+        "id": "first_footer_bottomtext",
+        "type": "text",
+        "label": "First Footer Bottom Text"
       }
     ]
   }
