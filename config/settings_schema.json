@@ -162,6 +162,20 @@
         "id": "footer_vimeo_icon_link",
         "type": "text",
         "label": "Footer Vimeo Icon Link"
+      },
+      {
+        "type": "header",
+        "content": "Footer Newsletter"
+      },
+      {
+        "id": "footer_newsletter_header",
+        "type": "text",
+        "label": "Newsletter Header"
+      },
+      {
+        "id": "footer_newsletter_text",
+        "type": "text",
+        "label": "Newsletter Text"
       }
     ]
   }
