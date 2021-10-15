@@ -5,25 +5,25 @@
           <div class="logo"><img src="img/logo-white.png" alt="..."></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
           <ul class="social-menu list-inline">
-              
+
             {% if settings.footer_facebook_icon.size > 0 %}
-                 <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                 <li class="list-inline-item"><a href="{{ settings.footer_facebook_icon_link }}" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
             {% endif %}
 
             {% if settings.footer_twitter_icon.size > 0 %}
-            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="{{ settings.footer_twitter_icon_link }}" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
             {% endif %}
 
             {% if settings.footer_instagram_icon.size > 0 %}
-            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="{{ settings.footer_instagram_icon_link }}" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
             {% endif %}
 
             {% if settings.footer_pinterest_icon.size > 0 %}
-            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
+            <li class="list-inline-item"><a href="{{ settings.footer_pinterest_icon_link }}" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
             {% endif %}
 
             {% if settings.footer_vimeo_icon.size > 0 %}
-            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
+            <li class="list-inline-item"><a href="{{ settings.footer_vimeo_icon_link }}" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
             {% endif %}
 
           </ul>
