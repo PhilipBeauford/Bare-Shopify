@@ -111,6 +111,22 @@
           "bottom_text": "latest from the blog",
           "blog": "news"
         }
+      },
+      "brands": {
+        "type": "brands",
+        "blocks": {
+          "6f5b55c6-e6b6-4df1-9147-97cd41fbe876": {
+            "type": "text",
+            "settings": {
+              "brand_logo": "shopify:\/\/shop_images\/brand-1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "6f5b55c6-e6b6-4df1-9147-97cd41fbe876"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
