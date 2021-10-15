@@ -51,6 +51,25 @@
         "id": "first_footer_bottomtext",
         "type": "text",
         "label": "First Footer Bottom Text"
+      },
+      {
+        "type": "header",
+        "content": "Second-Column"
+      },
+      {
+        "id": "second_footer_icon",
+        "type": "text",
+        "label": "Second Footer Icon"
+      },
+      {
+        "id": "second_footer_toptext",
+        "type": "text",
+        "label": "Second Footer Top Text"
+      },
+      {
+        "id": "second_footer_bottomtext",
+        "type": "text",
+        "label": "Second Footer Bottom Text"
       }
     ]
   }
