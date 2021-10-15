@@ -97,6 +97,15 @@
     "settings": [
       {
         "type": "header",
+        "content": "Footer Logo"
+      },
+      {
+        "id": "footer_logo",
+        "type": "image_picker",
+        "label": "Footer Logo"
+      },
+      {
+        "type": "header",
         "content": "Footer Social Media Icons"
       },
       {
