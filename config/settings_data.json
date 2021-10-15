@@ -84,7 +84,8 @@
         "settings": {
           "top_text": "autumn choice",
           "bottom_text": "mens collection",
-          "collection": "mens"
+          "collection": "mens",
+          "product_limit": 4
         }
       },
       "divider": {
