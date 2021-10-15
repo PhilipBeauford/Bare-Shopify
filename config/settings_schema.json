@@ -105,6 +105,11 @@
         "label": "Footer Logo"
       },
       {
+        "id": "footer_blurb",
+        "type": "text",
+        "label": "Footer Blurb"
+      },
+      {
         "type": "header",
         "content": "Footer Social Media Icons"
       },

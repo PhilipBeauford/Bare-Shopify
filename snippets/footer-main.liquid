@@ -3,7 +3,7 @@
       <div class="row">
         <div class="info col-lg-4">
           <div class="logo"><img src="{{ settings.footer_logo | | img_url: '2048x'}}" alt="..."></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          <p>{{ settings.footer_blurb }}</p>
           <ul class="social-menu list-inline">
 
             {% if settings.footer_facebook_icon.size > 0 %}
