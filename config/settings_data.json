@@ -49,10 +49,20 @@
               "banner_text": "New Collectiones",
               "banner_link": "shopify:\/\/collections\/mens"
             }
+          },
+          "fcb72101-f006-40d6-b058-a334b6e4de55": {
+            "type": "text",
+            "settings": {
+              "banner_image": "shopify:\/\/shop_images\/banner-2.jpg",
+              "banner_header_text": "Women's",
+              "banner_text": "New Collections",
+              "banner_link": "shopify:\/\/collections\/womens"
+            }
           }
         },
         "block_order": [
-          "7158e052-3ce5-4738-9824-95fc1f403a90"
+          "7158e052-3ce5-4738-9824-95fc1f403a90",
+          "fcb72101-f006-40d6-b058-a334b6e4de55"
         ],
         "settings": {
           "category_header": "Top For This Month",
