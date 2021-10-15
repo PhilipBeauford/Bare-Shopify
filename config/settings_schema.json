@@ -91,5 +91,19 @@
         "label": "Third Footer Bottom Text"
       }
     ]
+  },
+  {
+    "name": "Footer Main",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Footer Social Media Icons"
+      },
+      {
+        "id": "footer_facebook_icon",
+        "type": "text",
+        "label": "Footer Facebook Icon"
+      }
+    ]
   }
 ]
