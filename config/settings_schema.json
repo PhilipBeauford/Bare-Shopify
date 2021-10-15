@@ -70,6 +70,25 @@
         "id": "second_footer_bottomtext",
         "type": "text",
         "label": "Second Footer Bottom Text"
+      },
+      {
+        "type": "header",
+        "content": "Third-Column"
+      },
+      {
+        "id": "third_footer_icon",
+        "type": "text",
+        "label": "Third Footer Icon"
+      },
+      {
+        "id": "third_footer_toptext",
+        "type": "text",
+        "label": "Third Footer Top Text"
+      },
+      {
+        "id": "third_footer_bottomtext",
+        "type": "text",
+        "label": "Third Footer Bottom Text"
       }
     ]
   }
