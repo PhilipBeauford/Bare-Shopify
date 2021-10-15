@@ -63,17 +63,8 @@
             "type": "text",
             "settings": {
               "banner_image": "shopify:\/\/shop_images\/banner-3.jpg",
-              "banner_header_text": "",
-              "banner_text": "",
-              "banner_link": ""
-            }
-          },
-          "2845d61a-e1bd-4786-be8d-d1c6788ce716": {
-            "type": "text",
-            "settings": {
-              "banner_image": "shopify:\/\/shop_images\/banner-1.jpg",
-              "banner_header_text": "wth",
-              "banner_text": "why not on the same row?",
+              "banner_header_text": "Accessories",
+              "banner_text": "Sales 20% off",
               "banner_link": ""
             }
           }
@@ -81,8 +72,7 @@
         "block_order": [
           "7158e052-3ce5-4738-9824-95fc1f403a90",
           "fcb72101-f006-40d6-b058-a334b6e4de55",
-          "5e00b6ed-69ed-41ad-b92c-fbb50b28725d",
-          "2845d61a-e1bd-4786-be8d-d1c6788ce716"
+          "5e00b6ed-69ed-41ad-b92c-fbb50b28725d"
         ],
         "settings": {
           "category_header": "Top For This Month",
