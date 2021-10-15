@@ -2,6 +2,9 @@
   "current": {
     "topbar": "661-900-9575",
     "header_logo": "shopify:\/\/shop_images\/logo.png",
+    "first_footer_icon": "icon-truck",
+    "first_footer_toptext": "free shipping & return",
+    "first_footer_bottomtext": "Free Shipping over $300",
     "customer_layout": "theme",
     "example_option": "option",
     "sections": {
