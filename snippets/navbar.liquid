@@ -18,7 +18,87 @@
         <ul class="navbar-nav mx-auto">
 
           {% for link in linklists[settings.main_menu].links %}
-            {% if link.links != blank %}
+
+            {% if link.title == "Shop" %}
+
+            <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="nav-link">{{ link.title }}<i class="fa fa-angle-down"></i></a>
+              <div class="dropdown-menu megamenu">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="row">
+
+                      {% for childlink in link.links %}
+
+                        <div class="col-lg-3"><strong class="text-uppercase">{{ childlink.title }}</strong>
+                          <ul class="list-unstyled">
+                            {% for grandchildlink in childlink.links %}
+                              <li><a href="{{ grandchildlink.url }}">{{ grandchildlink.title }}</a></li>
+                            {% endfor %}
+                          </ul>
+                        </div>
+                      {% endfor %}
+
+
+
+                    </div>
+                    <div class="row services-block">
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="item d-flex align-items-center">
+                          <div class="icon"><i class="icon-truck text-primary"></i></div>
+                          <div class="text"><span class="text-uppercase">Free shipping &amp; return</span><small>Free Shipping over $300</small></div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="item d-flex align-items-center">
+                          <div class="icon"><i class="icon-coin text-primary"></i></div>
+                          <div class="text"><span class="text-uppercase">Money back guarantee</span><small>30 Days Money Back</small></div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="item d-flex align-items-center">
+                          <div class="icon"><i class="icon-headphones text-primary"></i></div>
+                          <div class="text"><span class="text-uppercase">020-800-456-747</span><small>24/7 Available Support</small></div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="item d-flex align-items-center">
+                          <div class="icon"><i class="icon-secure-shield text-primary"></i></div>
+                          <div class="text"><span class="text-uppercase">Secure Payment</span><small>Secure Payment</small></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 text-center product-col hidden-lg-down"><a href="detail.html" class="product-image"><img src="img/shirt.png" alt="..." class="img-fluid"></a>
+                    <h6 class="text-uppercase product-heading"><a href="detail.html">Lose Oversized Shirt</a></h6>
+                    <ul class="rate list-inline">
+                      <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
+                    </ul><strong class="price text-primary">$65.00</strong><a href="#" class="btn btn-template wide">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {% elsif link.links != blank %}
               <li class="nav-item dropdown">
                 <a id="navbarHomeLink" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">{{ link.title }}<i class="fa fa-angle-down"></i></a>
                 <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
