@@ -27,6 +27,15 @@
         "id": "header_logo",
         "type": "image_picker",
         "label": "Main Logo"
+      },
+      {
+        "type": "header",
+        "content": "Navbar"
+      },
+      {
+          "id": "main_menu",
+          "type": "link_list",
+          "label": "Main Menu"
       }
     ]
   },
