@@ -33,9 +33,9 @@
         "content": "Navbar"
       },
       {
-          "id": "main_menu",
-          "type": "link_list",
-          "label": "Main Menu"
+        "id": "main_menu",
+        "type": "link_list",
+        "label": "Main Menu"
       }
     ]
   },
