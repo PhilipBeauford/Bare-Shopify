@@ -24,7 +24,7 @@
                 <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
 
                   {% for childlink in link.links %}
-                    <li><a href="{{ childlink.title }}" class="dropdown-item">{{childlink.title }}</a></li>
+                    <li><a href="{{ childlink.url}}" class="dropdown-item">{{childlink.title }}</a></li>
                   {% endfor %}
                 </ul>
               </li>
