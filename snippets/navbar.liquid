@@ -17,7 +17,7 @@
       <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav mx-auto">
 
-          {% for link in linklists["main-menu"] %}
+          {% for link in linklists["main-menu"].links %}
           <li class="nav-item"><a href="{{ link.url }}" class="nav-link">{{link.title }}</a></li>
           {% endfor %}
           <!--  
