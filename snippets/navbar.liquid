@@ -68,34 +68,27 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 text-center product-col hidden-lg-down"><a href="detail.html" class="product-image"><img src="img/shirt.png" alt="..." class="img-fluid"></a>
-                    <h6 class="text-uppercase product-heading"><a href="detail.html">Lose Oversized Shirt</a></h6>
+
+
+                  {% assign product_item = all_products[settings.main_menu_product] %}
+                  <div class="col-lg-3 text-center product-col hidden-lg-down">
+                    <a href="{{ product_item.url }}" class="product-image">
+                      <img src="{{product_item.featured_image | img_url: '2048x'}}" alt="..." class="img-fluid">
+                    </a>
+                    <h6 class="text-uppercase product-heading"><a href="detail.html">{{product_item.title }}</a></h6>
                     <ul class="rate list-inline">
                       <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
                       <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
                       <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
                       <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
                       <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                    </ul><strong class="price text-primary">$65.00</strong><a href="#" class="btn btn-template wide">Add to cart</a>
+                    </ul>
+                    <strong class="price text-primary">{{product_item.price | money }}</strong>
+                    <a href="#" class="btn btn-template wide">Add to cart</a>
                   </div>
                 </div>
               </div>
             </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
             {% elsif link.links != blank %}
