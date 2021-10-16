@@ -36,6 +36,15 @@
         "id": "main_menu",
         "type": "link_list",
         "label": "Main Menu"
+      },
+      {
+        "type": "header",
+        "content": "Featured Product"
+      },
+      {
+        "id": "main_menu_product",
+        "type": "product",
+        "label": "Main Menu Product"
       }
     ]
   },
