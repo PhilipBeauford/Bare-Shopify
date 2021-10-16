@@ -16,16 +16,21 @@
       <!-- Navbar Collapse -->
       <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav mx-auto">
+
+          {% for link in linklists["main-menu"] %}
+          <li class="nav-item"><a href="{{ link.url }}" class="nav-link">{{link.title }}</a></li>
+          {% endfor %}
+          <!--  
           <li class="nav-item dropdown"><a id="navbarHomeLink" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">Home<i class="fa fa-angle-down"></i></a>
             <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
               <li><a href="index.html" class="dropdown-item">Classic Home</a></li>
               <li><a href="index2.html" class="dropdown-item">Parallax sections</a></li>
-              <li><a href="index3.html" class="dropdown-item">Video background                     </a></li>
+              <li><a href="index3.html" class="dropdown-item">Video background</a></li>
             </ul>
           </li>
           <li class="nav-item"><a href="category.html" class="nav-link">Shop</a>
           </li>
-          <!-- Megamenu-->
+
           <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="nav-link">Template<i class="fa fa-angle-down"></i></a>
             <div class="dropdown-menu megamenu">
               <div class="row">
@@ -120,8 +125,8 @@
               </div>
             </div>
           </li>
-          <!-- /Megamenu end-->
-          <!-- Multi level dropdown    -->
+          
+
           <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">Dropdown<i class="fa fa-angle-down"></i></a>
             <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
               <li><a href="#" class="dropdown-item">Action</a></li>
@@ -144,11 +149,12 @@
               </li>
             </ul>
           </li>
-          <!-- Multi level dropdown end-->
           <li class="nav-item"><a href="blog.html" class="nav-link">Blog </a>
           </li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
           </li>
+
+        -->
         </ul>
         <div class="right-col d-flex align-items-lg-center flex-column flex-lg-row">
           <!-- Search Button-->
