@@ -48,7 +48,7 @@
             "type": "text",
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/Baner_1920x5503_2376x_691d30a9-6c34-405c-9953-aa7da3a1ed3e.jpg",
-              "slide_text": "<div class=\"col-lg-6 text-white\">\n                <h1>Labore et dolore magna aliqua<\/h1>\n                <p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\">  <\/i><\/a>\n              <\/div>"
+              "slide_text": "<div class=\"col-lg-4 text-white\">\n                <h1>Labore et dolore magna aliqua<\/h1>\n                <p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\">  <\/i><\/a>\n              <\/div>"
             }
           },
           "2f4b3d78-085f-401b-bc6b-96c536981b6b": {
