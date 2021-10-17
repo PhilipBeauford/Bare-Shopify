@@ -55,7 +55,7 @@
             "type": "text",
             "settings": {
               "slide_image": "shopify:\/\/shop_images\/hero-bg-3.jpg",
-              "slide_text": "<div class=\"col-lg-6 text-white\">\n                <h1>Sed do eiusmod tempor<\/h1>\n                <p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\">           <\/i><\/a>\n              <\/div>"
+              "slide_text": "<div class=\"col-lg-4 text-white\">\n                <h1>Sed do eiusmod tempor<\/h1>\n                <p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>\n<a href=\"#\" class=\"btn btn-template wide shop-now\">Shop Now<i class=\"icon-bag\">           <\/i><\/a>\n              <\/div>"
             }
           }
         },
