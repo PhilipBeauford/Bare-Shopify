@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="info col-lg-4">
-          <div class="logo"><img src="{{ settings.footer_logo | | img_url: '2048x'}}" alt="..."></div>
+          <div class="logo"><img src="{{ settings.footer_logo | img_url: '2048x' }}" alt="..."></div>
           <p>{{ settings.footer_blurb }}</p>
           <ul class="social-menu list-inline">
 
@@ -79,4 +79,13 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{{ settings.footer_logo | | img_url: '2048x'}}"
+  to: "{{ settings.footer_logo | img_url: '2048x' }}"
+  position: 151..196
+{%- endcomment -%}
