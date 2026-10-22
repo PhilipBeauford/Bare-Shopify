@@ -19,8 +19,20 @@
     <strong>sold out</strong>
     {% endunless %}
     <a href="{{ product.url | within: collection }}">
-      <img src="{{ product.featured_image.src | | img_url: 'large' }}"
-      alt="{{ product.featured_image.alt | | escape }}" />
+      <img src="{{ product.featured_image.src | img_url: 'large' }}"
+      alt="{{ product.featured_image.alt | escape }}" />
     </a>
   </div>
-{% endfor %}
+{% endfor %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{{ product.featured_image.src | | img_url: 'large' }}"
+  to: "{{ product.featured_image.src | img_url: 'large' }}"
+  position: 668..719
+- from: "{{ product.featured_image.alt | | escape }}"
+  to: "{{ product.featured_image.alt | escape }}"
+  position: 732..773
+{%- endcomment -%}

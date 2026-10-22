@@ -28,11 +28,11 @@
 <body>
 
   {% for link in linklists.main-menu.links %}
-     {% assign child_list_handle = link.title | | handleize %}
+     {% assign child_list_handle = link.title | handleize %}
      {% if linklists[child_list_handle].links != blank %}
         <a href="{{link.url}}"> {{link.title}} </a>
         [{% for  childlink in linklists[child_list_handle].links %}
-          <a href="{{ childlink.url }}"> {{childlink.title \ | escape }} </a>
+          <a href="{{ childlink.url }}"> {{ childlink.title | escape }} </a>
         {% endfor %}]
       {% else %}
         <a href="{{link.url}}"> {{link.title}} </a>
@@ -145,4 +145,16 @@
     Copyright &copy; {{ "now" | date: "%Y" }} {{ shop.name }}. {{ powered_by_link }}.
   </footer>
   {% endcomment %}
-  
+  {%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% assign child_list_handle = link.title | | handleize %}"
+  to: "{% assign child_list_handle = link.title | handleize %}"
+  position: 1354..1409
+- from: "{{childlink.title \\ | escape }}"
+  to: "{{ childlink.title | escape }}"
+  position: 1629..1659
+{%- endcomment -%}
